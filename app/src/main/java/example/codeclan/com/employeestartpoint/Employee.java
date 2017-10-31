@@ -38,6 +38,8 @@ public class Employee {
   }
 
   public void raiseSalary(double amount) {
-    this.salary += amount;
+    if (amount >= 0) {
+      this.salary += amount;
+    }
   }
 }
