@@ -21,31 +21,23 @@ public class Employee {
     return id;
   }
 
-  public void setId(int id) {
-    this.id = id;
-  }
-
   public String getName() {
     return name;
-  }
-
-  public void setName(String name) {
-    this.name = name;
   }
 
   public double getSalary() {
     return salary;
   }
 
-  public void setSalary(double salary) {
-    this.salary = salary;
-  }
-
   public String getSocialSecurityNumber() {
     return socialSecurityNumber;
   }
 
-  public void setSocialSecurityNumber(String socialSecurityNumber) {
-    this.socialSecurityNumber = socialSecurityNumber;
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void raiseSalary(double amount) {
+
   }
 }
