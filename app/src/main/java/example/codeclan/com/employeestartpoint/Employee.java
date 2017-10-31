@@ -34,7 +34,9 @@ public class Employee {
   }
 
   public void setName(String name) {
-    this.name = name;
+    if (name != null && name != "") {
+      this.name = name;
+    }
   }
 
   public void raiseSalary(double amount) {
